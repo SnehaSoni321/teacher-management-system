@@ -5,6 +5,7 @@ import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import AddTeacher from "./pages/AddTeacher";
 import ViewTeachers from "./pages/ViewTeachers";
+import TeacherDashboard from "./pages/TeacherDashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/addteacher" element={<AddTeacher />} />
         <Route path="/viewteachers" element={<ViewTeachers />} />
+        <Route path="/teacherdashboard" element={<TeacherDashboard />} />
       </Routes>
     </BrowserRouter>
   );
