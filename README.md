@@ -1,44 +1,88 @@
 # Teacher Management System
 
-A full-stack Teacher Management System built using React, Node.js, Express.js and MongoDB.
+A full-stack Teacher Management System developed using MERN Stack.
 
 ## Features
-- User Signup
-- User Login
-- Password Hashing using bcrypt
-- JWT Authentication (1 hour expiry)
-- Admin Dashboard
+
+### Admin
+
+- Admin Login
 - Add Teacher
 - View Teachers
+- Edit Teacher Information
 - Delete Teacher
-- Notification Bell
-- Logout
+- Manage Teacher Records
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- React.js
-- Node.js
-- Express.js
-- MongoDB
+### Teacher
 
-## Project Structure
-teacher-management-system
-- frontend
-- backend
+- Teacher Login
+- View Personal Information
+- View Schedule
+- Secure Dashboard Access
 
-## Run Project
+## Technologies Used
 
 ### Frontend
+- React.js
+- React Router DOM
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Authentication
+- JWT Authentication
+- Bcrypt Password Hashing
+
+### Additional Features
+- Email Notifications using Nodemailer
+- Route Protection
+- Role-Based Access Control
+
+## Project Structure
+
+Frontend:
+```
+src/
+├── pages/
+├── components/
+├── App.jsx
+└── main.jsx
+```
+
+Backend:
+```
+server/
+├── routes/
+├── models/
+├── config/
+└── server.js
+```
+
+## Installation
+
+Frontend:
+
 ```bash
+npm install
 npm run dev
 ```
 
-### Backend
+Backend:
+
 ```bash
+npm install
 npm start
 ```
 
-## Author
-Sneha Soni
+## Future Improvements
+
+- Attendance Management
+- Subject Allocation
+- Teacher Profile Images
+- Password Reset System
+- Admin Analytics Dashboard
